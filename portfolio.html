@@ -352,18 +352,22 @@
           </ul>
         </div>
         <!-- Секция "Подписаться" -->
-        <div class="subscribe">
-          <b class="footer-appeal-text">Подпишитесь на рассылку</b>
-          <div class="subscribe-forms">
-            <ul class="subscribe-forms-list">
-              <li class="e-mail-text">E-mail</li>
-              <li class="subscribe-item">
-                <button class="subscribe-button" type="button">
-                  Подписаться
-                </button>
-              </li>
-            </ul>
+        <div class="subscribe-section">
+          <div class="footer-appeal">
+            <b class="footer-appeal-text">Подпишитесь на рассылку</b>
           </div>
+          <form class="subscribe-form">
+            <input
+              class="subscribe-form-field"
+              type="email"
+              name="e-mail"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-btn" type="submit">
+              <b class="text-btn">Подписаться</b>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
